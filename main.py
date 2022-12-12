@@ -93,7 +93,7 @@ def Alice():
 
                     commands_output += output_current_cmd
                 else:
-                    commands_output += api.answer(f"USER Command declined: \n{user_ack}")
+                    commands_output += answer(f"USER Command declined: \n{user_ack}")
                     break
 
             # Ask the user if they want to send the output to the API
