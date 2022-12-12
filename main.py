@@ -15,13 +15,13 @@ All output of Alice must conform to the following grammar:
 
 def answer(x):
     system("rm -rf pasteInAI.txt whatAISaid.txt")
-    with open("pasteInAI.txt", "w") as out:
-        out.write(x)
+    with open("pasteInAI.txt", "w") as outp:
+        outp.write(x)
     system("touch whatAISaid.txt")
     print("paste the contents of pasteInAI.txt to the AI and paste the complete output to whatAISaid.txt, then press enter after thats done.")
     input()
-    with open("whatAISaid.txt", "r") as in:
-        return in.read()
+    with open("whatAISaid.txt", "r") as inp:
+        return inp.read()
      
 
 def Alice():
