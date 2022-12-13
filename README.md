@@ -1,13 +1,14 @@
-# chatGPT-jailbreak
+# chatGPT-term
 
-Jailbreak chatGPT and give it access to a real terminal with this project! chatGPT-jailbreak v1.0 is based on the project Alice from https://github.com/greshake/Alice, which provides some ideas for a method.
+Jailbreak chatGPT and give it access to a real terminal with this project! chatGPT-term v1.0 is based on the project Alice from https://github.com/greshake/Alice, which provides some ideas for a method.
 
-To use chatGPT-jailbreak, clone the repository and run `main.py`. This script will provide instructions on how to use chatGPT-jailbreak.
+To use chatGPT-term, clone the repository and run `main.py`. This script will provide instructions on how to use chatGPT-term.
 
 
 ## Requirements
 
 - Linux operating system
+- Python >=3.6.3
 - The pip package rich
 
 A Windows version is in development and will be released soon.
@@ -17,11 +18,11 @@ A Windows version is in development and will be released soon.
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/joshuajohncohen/chatGPT-jailbreak.git
+   git clone https://github.com/joshuajohncohen/chatGPT-term.git
    ```
 2. Navigate to the directory
    ```bash
-   cd chatGPT-jailbreak
+   cd chatGPT-term
    ```
 3. Install the dependencies
    ```bash
@@ -30,4 +31,4 @@ A Windows version is in development and will be released soon.
 
 ## Contributing
 
-If you are interested in contributing to the development of chatGPT-jailbreak, please fork the repository and submit a pull request with your changes. We welcome contributions and suggestions!
+If you are interested in contributing to the development of chatGPT-term, please fork the repository and submit a pull request with your changes. We welcome contributions and suggestions!
